@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 7px;
+  color: white;
+}
+
+article {
+  align: center;
+  padding: 300px;
+  
+  width: 100%;
+  background-color: #f1f1f1;
+   background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/07/black-wallpapers-28.jpg');
+   opacity: 1;
+   background-size: cover;
+  height: 700px; 
+  text-align: center;
+}
+
+footer {
+ background-image: url('https://wallpapers.com/images/high/plain-black-iphone-flowers-7o0f6ll1dr3jjg83.webp');
+  padding: 10px;
+   height: 200px;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;
+}
+</style>
+<body>
+
+<ul>
+ 
+  
+  
+  <li><a href="#about">About us</a></li>
+  <li><a href="#contact">Blog</a></li>
+   <li><a class="active" href="#home">Esummit</a></li>
+   <li><a href="#news">Community</a></li>
+   <img src="https://www.ecellbphc.in/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fassets%2Fimages%2Fmainlogo.9c338b5ed23edcdf418f531e5ac4ab38.png&w=384&q=75" style="width:50px;height:50px ;align:left;">
+<style>
+img {
+  display: block;
+  margin-left: 50;
+  margin-right: auto;
+}
+</ul>
+
+</style>
+</body>
+ 
+</header>
+
+<section>
+  
+  
+  <article>
+  <form style="background-color:black;p.outset border-style: outset;border-radius: 30px;padding: 10px;">
+   <h1 style="color:white;font-size:30px;"><b>Welcome.</b></h1>
+   <style> 
+input[type=text] {
+  width:50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+   border: 1.5px solid white;
+  background-color: black;
+  color: white;
+}
+</style>
+<style> 
+input[type=password] {
+  width:50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+   border: 1.5px solid white;
+  background-color: black;
+  color: white;
+}
+</style>
+  <form action="/action_page.php">
+  <label for="fname"></label><br>
+  <input type="text" id="fname" name="fname"placeholder="Email Address">><br>
+  <label for="lname"></label><br>
+  <input type="password" id="lname" name="lname"placeholder="password"><br><br>
+  <input type="submit" value="login">
+  <p style="color:white;">Don't have account?Sign Up</p>
+</form> 
+    
+  </article>
+</section>
+
+<footer>
+<style>
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+</style>
+<p><b>E-cell BPHC<b><p/>
+<p style="font-size:80%;">Networking startup all over the world<p>
+<p style="text-align:center;">Follow Us</p>
+
+<p style="text-align:right;">Contact Us</p>
+<p style="text-align:right;""font-size:80%;">ecell@hyderabad.bitspilani.ac.in</p>
+
+</footer>
+
+</body>
+</html>
+
+
+
+
